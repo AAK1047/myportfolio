@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.jumbotron {
+    background-color: black;
+    color: #fff;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#home{
+    background-color: black;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#projects .card {
+    transition: transform 0.2s ease-in-out;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
+
+#contact{
+    margin-top:5% ;
+  
+  }
+  .heading{
+    text-align: center;
+  }
+  .conset{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+  }
+  .con, .up{
+  margin: 0px 13px ;
+       width: 50px;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;     
+      
+  }
+  .con i{
+    color: black;
+  }
+  .con:hover{
+    background-image: linear-gradient(to bottom right , rgb(155, 30, 30) , black);
+    
+  }
+  .con:hover i{
+    color: white;
+    animation: anime .75s;
+  }
+  @keyframes anime{
+    0%{
+         transform: rotate(15deg);
+    }
+    10%{
+      transform: rotate(-15deg);
+  
+    }
+    20%{
+      transform: rotate(15deg);
+    }
+    30%{
+      transform: rotate(-15deg);
+  
+    }
+    40%{
+      transform: rotate(15deg);
+  
+    }
+   50%{
+      transform: rotate(-15deg);
+  
+    }
+    60%{
+      transform: rotate(15deg);
+  
+    }
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
